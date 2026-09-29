@@ -1,0 +1,32 @@
+{
+  "pins" : [
+    {
+      "identity" : "braintree-ios-drop-in",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/braintree/braintree-ios-drop-in",
+      "state" : {
+        "revision" : "d951d104ac960188824bda191be2f57c57351a31",
+        "version" : "9.14.0"
+      }
+    },
+    {
+      "identity" : "braintree_ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/braintree/braintree_ios",
+      "state" : {
+        "revision" : "1d4fcd9343bab98759482b4da0b1b6bdaa122b31",
+        "version" : "5.27.0"
+      }
+    },
+    {
+      "identity" : "stripe-ios-spm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/stripe/stripe-ios-spm",
+      "state" : {
+        "revision" : "db9ec52a0579b42763038f2396de7669f3d363e7",
+        "version" : "26.12.1"
+      }
+    }
+  ],
+  "version" : 2
+}
