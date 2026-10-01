@@ -12,7 +12,7 @@ let package = Package(
         .library(name: "TRPBookingBraintree", targets: ["TRPBookingBraintree"])
     ],
     dependencies: [
-        .package(path: "../TRPBookingKit"),
+        .package(path: "../TRPBookingKit-contract"),
         .package(url: "https://github.com/stripe/stripe-ios-spm", from: "26.0.0"),
         .package(url: "https://github.com/braintree/braintree-ios-drop-in", from: "9.9.0")
     ],
@@ -20,14 +20,14 @@ let package = Package(
         .target(
             name: "TRPBookingStripe",
             dependencies: [
-                "TRPBookingKit",
+                .product(name: "TRPBookingKit", package: "TRPBookingKit-contract"),
                 .product(name: "StripePaymentSheet", package: "stripe-ios-spm")
             ]
         ),
         .target(
             name: "TRPBookingBraintree",
             dependencies: [
-                "TRPBookingKit",
+                .product(name: "TRPBookingKit", package: "TRPBookingKit-contract"),
                 .product(name: "BraintreeDropIn", package: "braintree-ios-drop-in")
             ]
         )
