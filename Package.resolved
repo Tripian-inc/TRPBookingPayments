@@ -26,6 +26,15 @@
         "revision" : "db9ec52a0579b42763038f2396de7669f3d363e7",
         "version" : "26.12.1"
       }
+    },
+    {
+      "identity" : "trpbookingkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tripian-inc/TRPBookingKit.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5bd21806a402e639be9b5e18b6f9aafd0f6f34de"
+      }
     }
   ],
   "version" : 2
